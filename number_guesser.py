@@ -1,4 +1,5 @@
 import random
+
 top_of_range = input("Type a number: ")
 
 if top_of_range.isdigit():
@@ -10,8 +11,8 @@ else:
     print("Please type a number next time!!")
     quit()
 
-random_number = random.randint(0,top_of_range)
-#print(random_number)
+random_number = random.randint(0, top_of_range)
+# print(random_number)
 
 while True:
     user_guess = input("Make a guess: ")
@@ -26,6 +27,3 @@ while True:
         break
     else:
         print("You got it wrong!")
-        
-    
-
